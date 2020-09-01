@@ -1,0 +1,16 @@
+HOME:
+1° - Um header com menu, logo,botão para pesquisa e o botão da sacola com os produtos ja selecionados pelo usuario
+2° - banner ou slider, com imagens ou video dos produtos da empresa
+3° - tem uma navegaçao com 3 opcoes,a primeira é a propria home a segunda a pagina de produtos,sobre ou cadastro
+3° - exibem informações dos produtos exibidos na home, como titulo, marca etc.
+4° - tem tambem filtro de produtos e uma opção de ordenação por categoria
+5° - exibe a imagem do produto com uma pequena descrição e com o valor a vista no cartão e tambem o valor em parcelas
+6° - logo abaixo dos produtos ele exibe uma newsletter,com opcoes de login ou cadastro e informacoes da empresa, e contato
+7° - o rodape com cnpj e informacoes de contato e localização fisica da empresa.
+
+MENU:
+1° - um botão de login
+2° - um botão para mostrar os itens favoritos da pagina
+3° - um input de pesquisa
+4° - tem uma opção de novas coleçoes da pagina
+5 ° - contato
