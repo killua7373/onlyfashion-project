@@ -14,3 +14,21 @@ MENU:
 3° - um input de pesquisa
 4° - tem uma opção de novas coleçoes da pagina
 5 ° - contato
+
+CORES:
+
+Cor principal: 
+      #0078D7
+Cor auxiliar:
+     #FF8C00
+Cor de ênfase:
+      Texto: #767676
+       links: #2D7D9A
+       Botões: #0099BC
+
+FONTS:
+       Link: <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+       Texto: font-family: 'Cormorant', serif;
+       Titulo: font-family: 'Open Sans', sans-serif;
+

@@ -2,9 +2,9 @@ const allProducts = [
    {
     title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '1100.00',
     parcelas: '12',
-    parcelasValor: '15.90',
+    parcelasValor: '105.90',
     regular: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   },
@@ -194,18 +194,18 @@ const allProducts = [
   {
     title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '238.00',
     parcelas: '12',
-    parcelasValor: '15.90',
+    parcelasValor: '29.90',
     regular: 'https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   },
   {
     title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '1250.00',
     parcelas: '12',
-    parcelasValor: '15.90', 
+    parcelasValor: '120.90', 
     regular: 'https://images.unsplash.com/photo-1520367745676-56196632073f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1520367745676-56196632073f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   },
@@ -220,9 +220,9 @@ const allProducts = [
   },
   {title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '568.00',
     parcelas: '12',
-    parcelasValor: '15.90', 
+    parcelasValor: '55.90', 
     regular: 'https://images.unsplash.com/photo-1521722776011-39ec91e0c14b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1521722776011-39ec91e0c14b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   },
@@ -256,20 +256,21 @@ const allProducts = [
   {
     title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '248.00',
     parcelas: '12',
-    parcelasValor: '15.90', 
+    parcelasValor: '27.90', 
     regular: 'https://images.unsplash.com/photo-1520923179278-ee25e25e09e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1520923179278-ee25e25e09e4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   },
   {
     title: 'Roupa estiloza',
     descricao: 'Peça de roupa para chamar a atenção onde você for!',
-    valor: '168.00',
+    valor: '1200.00',
     parcelas: '12',
-    parcelasValor: '15.90', 
+    parcelasValor: '110.90', 
     regular: 'https://images.unsplash.com/photo-1513521712264-512ceb91a940?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0',
     small: 'https://images.unsplash.com/photo-1513521712264-512ceb91a940?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE2MTczOH0'
   }
 ];
+
 
