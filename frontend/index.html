@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="AlexDK">
+        <meta name="description" content="Loja virtual da empresa onlyFasion">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- 
+            Padrão BEM de CSS : 
+                BASE / ELEMENTO / MODIFICADOR
+        -->
+        <header class="header">
+            <nav class="header__navigation">
+                <article class="header__menu">
+                    <span></span>
+                </article>
+                <article class="header__logo">
+                    <a href="#"> 
+                        <img src="public/assets/logo-1.png">
+                    </a>
+                </article>
+                <article class="header__actions">
+                    <div class="header__actions-search">
+                        <label for="header__input">
+                            <i class="fas fa-search"></i>
+                        </label>
+                        <input id="header__input" name="search" type="text" placeholder="Pesquisar produtos">
+                    </div>
+                    <div class="header__actions-sacola">
+                        <a href="#">
+                            <i class="fas fa-shopping-bag"></i>
+                        </a>
+                    </div>
+                </article>
+            </nav>
+        </header>
+
+        <nav class="menu">
+            <article class="menu__container">
+                <div class="menu__buttons">
+                    <a href="#">Login</a>
+                    <a href="#">Cadastra-se</a>
+                    <a href="#">
+                        <i class="fas fa-star"></i>
+                    </a>
+                </div>
+                <div class="menu__pages">
+                    <h3>Acesse</h3>
+                    <ul>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Sacola</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Favoritos</a></li>
+                        <li><a href="#">Promoçoês</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                    </ul>
+                </div>
+                <div class="menu__filtro">
+                    <h3>Filtro</h3>
+                    <ul>
+                        <li><a href="#">Tamanho</a>
+                            <ul>
+                                <li><a href="#">Grande</a></li>
+                                <li><a href="#">Extra grande</a></li>
+                                <li><a href="#">Medio</a></li>
+                                <li><a href="#">Pequeno</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Valor</a>
+                            <ul>
+                                <li><a href="#">Acima de R$1000.00</a></li>
+                                <li><a href="#">Entre R$500.00 R$1000.00</a></li>
+                                <li><a href="#">Entre R$250.00 e R$500.00</a></li>
+                                <li><a href="#">Abaixo de R$250.00</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Cor</a>
+                            <ul>
+                                <li><a href="#">Preto</a></li>
+                                <li><a href="#">Colorido</a></li>
+                                <li><a href="#">Branco</a></li>
+                                <li><a href="#">Vermelho</a></li>                    
+                                <li><a href="#">Azul</a></li>
+                                <li><a href="#">Rosa</a></li>
+                                <li><a href="#">Verde</a></li>
+                                <li><a href="#">Cinza</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Marca</a>
+                            <ul>
+                                <li><a href="#">PinkMode</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">FashionWeek</a></li>
+                                <li><a href="#">10TOP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__bandeiras">
+                    <ul>
+                        <li><a href="#">
+                                <img src="public/assets/bandeiras/bandeira-1.png" alt="Bandeiras de cartôes que o site aceita">
+                        </a></li>
+                        <li><a href="#">
+                                <img src="public/assets/bandeiras/bandeira-2.png" alt="Bandeiras de cartôes que o site aceita">
+                        </a></li>
+                        <li><a href="#">
+                                <img src="public/assets/bandeiras/bandeira-3.png" alt="Bandeiras de cartôes que o site aceita">
+                        </a></li>
+
+                    </ul>
+                </div>
+            </article>
+        </nav>
+
+        <section class="slide">
+            <article class="slide__container">
+                <div class="slide__text">
+                    <h1>Compre suas peças unicas!e seja unico para alguem!</h1>
+                </div>
+            </article>
+        </section>
+
+        <article class="navigation">
+            <div class="navigation__container">
+                <a href="#">Inicio</a>
+                <a href="#">Produtos</a>
+                <a href="#">Cadastro-se</a>
+            </div>
+        </article>
+        
+        <main class="produtos">
+            <h2>Peças femenina</h2>
+            <article class="produtos__container"></article>
+        </main>
+
+    <!-- <script src="src/views/productsView.js"></script>
+    --><script type="module" src="/controllers/productsController.js"></script>
+    </body>
+</html>
